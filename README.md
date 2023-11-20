@@ -1,93 +1,68 @@
-# Fitness-Tracker
-![Apache2.0](https://img.shields.io/badge/license-Apache%202.0-pink.svg) ![npm](https://img.shields.io/npm/v/inquirer?style=plastic&color=ff69b4)  ![GitHub contributors](https://img.shields.io/github/contributors/lynseahoss/Fitness-Tracker?style=plastic&color=pink)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project Description
+## Available Scripts
 
-Fitness Tracker is a simple application meant for avid fitness clients to track their workouts along with logging new workouts. 
+In the project directory, you can run:
 
-The application is deployed on Heroku for the server to run and function properly.   
+### `npm start`
 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Deployment
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-[Fitness Tracker Heroku Application](https://evening-river-77971.herokuapp.com/)
+### `npm test`
 
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-![Fitness Tracker](https://media.giphy.com/media/dWOU4wecxwf9fPMJFr/giphy.gif)
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Project Technology](#project-technology)
-  * [Screenshots of Application](#screenshots-of-application)
-  * [Contributing Authors](#contributing-authors)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-----
-## Installation
-To install, run following command in terminal:
-  
-```
-npm i
+### `npm run eject`
 
-npm i mongoose
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-npm run seed
-```
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-  ## Usage
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-    ```
-    AS AN Avid Fitness Expert
-    I WANT to be able to log new workouts & track current workouts
-    SO THAT I can keep track of my fitness journey
-    ```
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Learn More
 
-----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Project Technology
-<details>
-    <summary markdown="span">Click to expand Project Technology Details</summary>
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Languages
-- HTML
-- CSS
-- Javascript
-- MongoDB
+### Code Splitting
 
-Libraries
-- [jQuery](jquery.com)
-- [Node.js](nodejs.org)
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-npm Packages
-- [mongoose](https://www.npmjs.com/package/mongoose)
-- [morgan logger](https://www.npmjs.com/package/morgan)
-- [express](https://www.npmjs.com/package/express)
+### Analyzing the Bundle Size
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-CSS Framework
-- [BootStrap](https://getbootstrap.com/)
+### Making a Progressive Web App
 
-Cloud Server
-- [Heroku](heroku.com/)
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-</details>
+### Advanced Configuration
 
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-## Screenshots of Application
-<details>
-    <summary markdown="span">Click to expand Screenshot Details</summary>
- 
-![Fitness Tracker](https://media.giphy.com/media/dWOU4wecxwf9fPMJFr/giphy.gif)
-*Gif of Workout Home Page*
+### Deployment
 
-</details>
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
+### `npm run build` fails to minify
 
-
-## Contributing Authors
-
-[Lindsey Lawson](https://github.com/lynseahoss)
-
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
